@@ -4,7 +4,9 @@ A back end for an e-commerce website that uses the latest technologies
 ## Description
 
 User Story:
-AS AN employer I WANT to view a potential employee's deployed portfolio of work samples SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 
 GitPages deployed link:
 This application won’t be deployed.
