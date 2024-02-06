@@ -7,13 +7,33 @@ class ProductTag extends Model {}
 ProductTag.init(
   {
     // define columns
+    productTag_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    product_id: {
+      type:DataTypes.INTEGER,
+      references: {
+        model: 'Product',
+        key: 'product_id',
+      },
+    },
+    tag_id: {
+      type:DataTypes.INTEGER,
+      references: {
+        model: 'Tag',
+        key: 'Tag_id',
+      },
+    }
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'product_tag',
+    modelName: 'ProductTag',
   }
 );
 
