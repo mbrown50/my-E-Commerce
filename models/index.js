@@ -9,15 +9,14 @@ const ProductTag = require('./ProductTag');
 // Products belongsTo Category
 // A prodcut belongs to a single category
 Product.belongsTo(Category, {
-  foreignKey: 'category_id',
+  foreignKey: 'category_id'
 });
 
 // Categories have many Products
 // A category can have many products
 Category.hasMany(Product, {
-  foreignKey: 'category_id',
+  foreignKey: 'category_id'
 });
-
 
 // Many-to-Many
 
@@ -26,9 +25,7 @@ Category.hasMany(Product, {
 Product.belongsToMany(
   Tag, 
   {
-      // through is compulsory since v2
       through: 'ProductTag',
-
       // note that this is the Parent's Id, not Child. 
       foreignKey: 'product_id'
   }
@@ -40,8 +37,6 @@ Tag.belongsToMany(
   Product,
   {
       through: 'ProductTag',
-
-      // GOTCHA
       // note that this is the Child's Id, not Parent.
       foreignKey: 'tag_id'
   }
