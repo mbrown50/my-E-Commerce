@@ -9,7 +9,7 @@ const ProductTag = require('./ProductTag');
 // Products belongsTo Category
 // A prodcut belongs to a single category
 Product.belongsTo(Category, {
-  foreignKey: 'category_id'
+  foreignKey: 'category_id',
 });
 
 // Categories have many Products
