@@ -16,10 +16,10 @@ GitHub Repo:
 https://github.com/mbrown50/my-E-Commerce/
 
 Walkthrough:
-https://drive.google.com/file/d/1qCkM_x8oXVYhoirY86cDwy5l2yrT8AR0/view?usp=drive_link
-
-Walkthrough 2: showing Products POST does do the udpate
 https://drive.google.com/file/d/1BzCDL3pV5GIy-Ry5EWNGNAeAi4E3BVF0/view?usp=drive_link
+
+Walkthrough 2: showing Products POST does udpate
+https://drive.google.com/file/d/1qCkM_x8oXVYhoirY86cDwy5l2yrT8AR0/view?usp=drive_link
 
 
 ## Installation
